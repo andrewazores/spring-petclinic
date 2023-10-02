@@ -244,6 +244,11 @@
             </configuration>
           </execution>
         </executions>
+        <configuration>
+          <docker>
+            <bindHostToBuilder>true</bindHostToBuilder>
+          </docker>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
